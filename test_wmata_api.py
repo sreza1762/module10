@@ -51,7 +51,7 @@ class WMATATest(unittest.TestCase):
 
         # for each incident in the JSON response, assert that the 'UnitType' is "ELEVATOR"
         for response in json_response:
-            assert response['UnitType'] == 'ELEVATOR', "UnitType field does not match for ELEVATOR"
+            assert response['UnitType'] == 'ELEVATOR', "UnitType field does not match for ELEVATOR!"
 
 
 ################################################################################
